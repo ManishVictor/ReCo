@@ -23,7 +23,9 @@ This program specifically focuses on the housekeeping gens and thus all its resu
     c. UNZIP the folder: unzip UBCG_v3.zip
 2. JAVA installation (Check for: jdk-8u5-linux-x64.tar.gz ):
   -Unistalling JAVA completely: https://askubuntu.com/questions/84483/how-to-completely-uninstall-java#185250
-  -Re-Installing JAVA8 (JRE8): https://stackoverflow.com/questions/55920389/e-package-oracle-java8-installer-has-no-installation-candidate (Check for: jdk-8u5-linux-x64.tar.gz )
+  -downloading: https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html (Check for: jdk-8u5-linux-x64.tar.gz )
+  -Re-Installing JAVA8 (JRE8): https://stackoverflow.com/questions/55920389/e-package-oracle-java8-installer-has-no-installation-candidate 
+        note: use sudo in line of command
 3. Install the dependencies using the sudo command. 
   sudo apt-get update -y
   sudo apt-get install -y prodigal
