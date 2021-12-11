@@ -1,4 +1,4 @@
-import os
+import os				#importing all the required packages
 from Bio import SeqIO
 import random
 import subprocess
