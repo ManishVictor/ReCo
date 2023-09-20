@@ -26,6 +26,9 @@ This program specifically focuses on the housekeeping gens and thus all its resu
     2. downloading: https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html (Check for: jdk-8u5-linux-x64.tar.gz )
     3. Re-Installing JAVA8 (JRE8): https://stackoverflow.com/questions/55920389/e-package-oracle-java8-installer-has-no-installation-candidate 
         note: use sudo in line of command
+
+        Instead you can also install in a conda environment using : conda install -c bioconda java-jdk=8
+       
 3. Install the dependencies using the sudo command. 
     1. sudo apt-get update -y
     2. sudo apt-get install -y prodigal
